@@ -1,0 +1,24 @@
+h1{
+	color: orange; /* define cor */
+	letter-spacing: 2px; /* espaçamento entre letras */
+	text-transform: uppercase; /* upercase / lowercase / capitalize */
+	text-shadow: 1px 1px 1px black; /* vertical - horizontal - desfoque - cor */
+}
+
+.text{
+	
+	width: 650;
+	height: 550;
+	text-indent: 10px; /*identação to texto*/
+	text-align: center; /* tipo de identação */
+	font-size: 20; /* tamanho da fonte */
+	font-family: arial, verdana; /* tipo de font */
+
+}
+
+/* tipos de fontes para css */
+
+/* Formas de estilizar a página de forma padrão em diferente navegadores
+css reset
+css normalize -> mais recomendando
+*/

@@ -1,0 +1,81 @@
+#wrap{
+	width: 900px; /*width -> largura*/
+	margin: auto; 
+	background: #e3e3e3; /* cor de fundo */
+	padding: 15px 15px 15px 15px; /* margens */
+	overflow: hidden; /* oque ficar fora da página, não aparece */
+}
+
+#exp form label, form input[type=submit], form textarea{ /* type = submit pra falar que só os inputs submit terão essa info */
+	display: block;
+}
+
+#exp form textarea{
+	width: 500px; /* largura */
+	height: 40px; /* altura */
+}
+
+#exp form input[type=submit]{
+	background: black;
+	color: white;
+	cursor: pointer; /* coloca o cursor da mãozinha */
+	padding: 10px; /* tamanho em alguma posição */
+	border: 0; /* retira borda */
+}
+
+#exp form input[type=submit]:hover{
+	background: orange;
+}
+
+body{
+	font-family: helvetica, sans-serif;
+}
+
+header h1{
+	      /* top, direita, baixo, esquerda */
+}
+
+header nav ul{
+	list-style: none; /* retira o estilo da linha */
+	padding-left: 20px;	 /* esquerda */
+}
+
+header nav ul li{
+	display: inline-block; /* retira um sobre outro */
+	margin-left: 10px; /* margem esquerda */
+}
+
+header nav ul li a{
+ font-size: 18px;
+ color: orange; /* denomina cor */
+ text-decoration: none; /* retira decoração do texto */
+}
+
+header nav ul li a:hover{
+	text-decoration: underline; /* Mostra o cursor diferente em cima dos links */
+}
+
+#sidebar{
+	float: right; /* lado da flutuação */
+	width: 500px; /* largura */
+}
+#sidebar ul{
+	list-style: none; /* retira o estilo da lista */
+}
+#sidebar ul li a{
+	color: orange;
+	text-decoration: none;
+}
+
+#content{
+	float: left; /* lado da flutuação */
+	width: 400px; /* largura */
+}
+
+#sidebar ul li a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	clear: both; /* limpa as flutuações anteriores */
+}

@@ -1,0 +1,35 @@
+<!doctype html> <!--tipo-->
+<html>  <!--tag na qual estará contida todas as outras-->
+	<head>  <!--não aparece na página mas é importante para o navegador (ex : título)-->
+
+		<title> Formulário </title> <!-- título -->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="estiloo.css">
+		
+	</head>
+
+	<body> <!--tudo que está visível-->
+		
+		<div id="exp">
+		<form action="" method="post"> <!-- action serve para informar aonde vai os arquivos do form // method -> o método que vai ser passado (post -> beckground ou get-> "front") -->
+
+			<!-- for e id serve para passar o cursor para dentro do placeholder (caixa de texto) -->
+			<label for="name">Data de Nascimento</label> <!-- informa oque se pede no campo -->
+			<input id="name" type="text" placeholder="Digite a data de nascimento" name="name" \> <!-- caixa de diálogo com usuário --> <!-- placeholder serve para inclusão na caixa do texto que informe oque deve ser inserido -->
+
+			<label>Você gostou do site?</label>
+			<input type="radio" name="opcao" value="Sim" checked="checked"> Sim
+			<input type="radio" name="opcao" value="Não" > Não
+
+			<label>Qual nota você acha que merece?</label>
+			<input type="checkbox" name="multi" value="10"> 10
+			<input type="checkbox" name="multi" value="6"> 6
+			<input type="checkbox" name="multi" value="0"> 0
+
+			<textarea> </textarea>
+			<input type="submit" value="Enviar" /> <!-- type sumit informa que será um botão / value é o texto da página -->
+
+		</form>
+</div>
+	</body>
+</html> 
